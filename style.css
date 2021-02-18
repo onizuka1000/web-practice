@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+}
+header h1 {
+  margin: 0;
+}
+.menu {
+  width: 100%;
+}
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
