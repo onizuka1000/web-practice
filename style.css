@@ -1,6 +1,15 @@
 body {
   margin: 0;
 }
+
+.main {
+  height: 801px;
+  background-color: plum;
+}
+.main a {
+
+}
+/* メニューバー */
 header {
   display: flex;
 }
@@ -26,4 +35,30 @@ header h1 {
 }
 .menu ul li a:hover {
   text-decoration: underline blue;
+}
+
+/* メイン */
+.mark {
+  text-align: center;
+  margin-top: 70px;
+}
+.catch {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  font-family: meiryo;
+}
+.corporation {
+  text-align: center;
+  font-family: serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+.main p:last-child {
+  text-align: center;
+  font-family: meiryo;
+  font-weight: bold;
+  color: #fff;
 }
