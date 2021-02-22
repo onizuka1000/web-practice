@@ -65,5 +65,24 @@ header h1 {
 
 /* イメージ１ */
 .image_1 h1 {
-  
+  text-align: center;
+}
+.box_1 {
+
+}
+.description_1 {
+  width: 30em;
+  padding: 50px 25px;
+}
+.description_1  h3 {
+  color: #666666;
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-top: 0;
+}
+.description_1 p {
+  color: #555555;
+  font-size: 14px;
+
 }
