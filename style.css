@@ -68,15 +68,17 @@ header h1 {
 .image_1 {
 
 }
-.titleIcon {
+.titleIcon_1 {
   width: 190px;
   height: 180px;
   background-image: url(images/circle-vision.png);
   background-size: contain;
-  
+  position: absolute;
+  left: 50%;
+  right: 50%
 }
 .box_1 {
-
+  display: flex;
 }
 .description_1 {
   width: 30em;
@@ -92,5 +94,9 @@ header h1 {
 .description_1 p {
   color: #555555;
   font-size: 14px;
-
+}
+.picture_1 {
+  background-image: url(images/menu01.jpeg);
+  min-height: 480px;
+  width: 50%;
 }
