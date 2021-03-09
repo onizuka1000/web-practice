@@ -6,6 +6,9 @@ body {
   height: 801px;
   background-color: plum;
   margin-bottom: 50px;
+  background: url(images/menu03_2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* メニューバー */
@@ -137,15 +140,34 @@ header h1 {
 }
 
 .box_2 {
-
+  display: flex;
+  padding-top: 100px;
 }
 .picture_2 {
   min-height: 480px;
+  width: 100%;
   background-color: yellow;
   background: linear-gradient(to right, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 1)), url(images/menu02_2.jpeg);
   background-size: cover
+
 }
 
 .description_2 {
   background: linear-gradient(to left, rgb(245,242,233) 20%, rgba(245,242,233,0));
+  width: 100%;
+}
+
+.area_2 {
+  max-width: 540px;
+  margin: 0 auto 0 0;
+  padding: 50px 25px;
+  margin-left: 50px;
+}
+
+.description_2 h3 {
+  color: #666666;
+  font-size: 23px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-top: 0;
 }
