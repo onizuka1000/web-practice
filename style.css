@@ -17,6 +17,8 @@ header {
 }
 header h1 {
   margin: 0;
+  width: 213px;
+  height: 140px;
 }
 .menu {
   width: 100%;
@@ -45,6 +47,9 @@ header h1 {
 .mark {
   text-align: center;
   margin-top: 70px;
+}
+.mark img {
+  width: 220px;
 }
 .catch {
   text-align: center;
