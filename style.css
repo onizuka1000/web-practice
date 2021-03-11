@@ -176,3 +176,7 @@ header h1 {
   font-weight: 400;
   margin-top: 0;
 }
+
+#menu-btn-check {
+  display: none;
+}
