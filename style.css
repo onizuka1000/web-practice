@@ -107,15 +107,15 @@ header h1 {
 
 .description_1  h3 {
   color: #666666;
-  font-size: 23px;
+  font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
-  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .description_1 p {
-  color: #555555;
-  font-size: 15px;
+  color: #666666;
+  font-size: 11px;
   width: 490px;
   line-height: 1.7;
 }
@@ -147,6 +147,7 @@ header h1 {
 .box_2 {
   display: flex;
   padding-top: 100px;
+  flex-flow: row-reverse;
 }
 .picture_2 {
   min-height: 480px;
@@ -169,13 +170,22 @@ header h1 {
   margin-left: 50px;
 }
 
-.description_2 h3 {
+
+.area_2 h3 {
   color: #666666;
-  font-size: 23px;
+  font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
-  margin-top: 0;
+  margin-bottom: 20px;
 }
+
+.area_2 p {
+  color: #666666;
+  font-size: 11px;
+  width: 490px;
+  line-height: 1.7;
+}
+
 
 #menu-btn-check {
   display: none;
